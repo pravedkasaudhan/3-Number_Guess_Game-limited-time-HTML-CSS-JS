@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin:10px 0px;
+}
+#container{
+    padding: 40px;
+    color: white;
+    width:50%;
+    margin:30px auto;
+    background-color: blanchedalmond;
+    height: auto;
+    border-radius: 30px;
+    position: absolute;
+    left:300px;
+    background: url(./images/dark-black-and-white-abstract-black-background-wallpaper-preview.jpg);
+}
+#entry{
+    width: 60%;
+}
+#result{
+    color:rgb(187, 229, 240);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+/* body{
+    background: url(./images/background-from-numbers-vector-3671917.jpg) no-repeat center center/cover; 
+} */
+
+.alpha{
+    border-radius: 20px;
+    padding:15px;
+    text-align: center;
+}
+.beta{
+    background-color: crimson;
+    color: white;
+    /* font-size: 1.5rem; */
+}
+#msg{
+    display: block;
+    margin:1px;
+    padding:3px;
+    background-color: rgb(110 218 123);
+    border-radius: 20px;
+    text-align: center;
+    width:80%;
+    margin: 0px auto;
+    color:#800023;
+    
+}
+#timer{
+    position:relative;
+    top:0px;
+    left:400px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+}
+canvas{
+    position:fixed;
+    opacity: 0.4;
+    margin:0px;
+}
